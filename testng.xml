@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+        <listener class-name="Selenium_Grafana_Influx.Selenium_Grafana_Influx.ExecutionListener" />
+    </listeners>
+	<test  name="Test" thread-count="1">
+		<classes>
+			<class name="Selenium_Grafana_Influx.Selenium_Grafana_Influx.TestCases" />
+			<class name="Selenium_Grafana_Influx.Selenium_Grafana_Influx.APITest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
